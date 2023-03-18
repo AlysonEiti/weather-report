@@ -12,12 +12,13 @@ function App() {
       <Form />
 
       <div className='result'>
-        <DivContent class="title" content="--" />
+        <DivContent key="5" class="title" content="--" />
 
         <DivInfo />
+        <DivContent key="6" class="tempDescription" content="" />
       </div>
 
-      <DivContent class="warn" content="City not found" />
+      <DivContent key="7" class="warn" content="" />
 
       <Footer />
     </div>

@@ -7,18 +7,25 @@
     padding: 20px;
 }
 .subTitle {
-    color: #777;
+    color: #AAA;
     font-size: 16px;
     margin-bottom: 5px;
 }
 .subInfo {
     color: #FFF;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 .subInfo sup, .subInfo span {
     font-size: 15px;
     font-weight: normal;
+}
+
+.tempDescription {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .warn {
